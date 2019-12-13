@@ -1,6 +1,6 @@
 venv
 .idea
-controleEstoque/__pycache__/
+inventoryControl/__pycache__/
 db.sqlite3
 suppliers/__pycache__/
 suppliers/migrations/__pycache__/
