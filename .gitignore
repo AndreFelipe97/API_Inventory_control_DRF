@@ -2,5 +2,6 @@ venv
 .idea
 controleEstoque/__pycache__/
 db.sqlite3
-fornecedores/__pycache__/
-fornecedores/migrations/__pycache__/
+suppliers/__pycache__/
+suppliers/migrations/__pycache__/
+suppliers/API/__pycache__/
