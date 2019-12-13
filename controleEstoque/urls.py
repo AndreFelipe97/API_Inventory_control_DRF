@@ -18,10 +18,12 @@ from django.urls import path, include
 from rest_framework import routers
 from suppliers.API.viewsets import SuppliersViewSet
 from orders.API.viewsets import OrderViewSet
+from products.API.viewsets import ProductViewSet
 
 router = routers.DefaultRouter()
 router.register('fornecedores', SuppliersViewSet)
 router.register('pedidos', OrderViewSet)
+router.register('produtos', ProductViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
