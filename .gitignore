@@ -5,3 +5,5 @@ db.sqlite3
 suppliers/__pycache__/
 suppliers/migrations/__pycache__/
 suppliers/API/__pycache__/
+orders/__pycache__/
+orders/migrations/__pycache__/
