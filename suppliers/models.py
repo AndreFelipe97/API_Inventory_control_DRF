@@ -5,7 +5,7 @@ from django.db import models
 class Suppliers(models.Model):
     cod = models.IntegerField()
     corporate_name = models.CharField(max_length=255)
-    cnpj = models.CharField(max_length=11)
+    cnpj = models.CharField(max_length=14)
     fone = models.CharField(max_length=11)
     public_place = models.CharField(max_length=100)
     number = models.IntegerField()
