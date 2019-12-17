@@ -11,3 +11,4 @@ orders/API/__pycache__/
 products/__pycache__/
 products/migrations/__pycache__/
 products/API/__pycache__/
+.env

@@ -1,0 +1,1 @@
+web: gunicorn invetoryControl.wsgi --log-file -
